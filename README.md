@@ -11,14 +11,14 @@ This repository is where I store my scripts which I use to bootstrap remote serv
 
 - Place the script you wish to use inside your .chef/bootstrap/ folder
 - Call the script when using the "knife bootstrap" command, using the -d flag
--- Example: "knife bootstrap <SERVER IP> -d <SCRIPTNAME>"
+-- Example: "knife bootstrap SERVER-IP -d SCRIPTNAME"
 
 
 # Script Details
 
 ## centos5-amazon-rvm.erb
 
-*USE:* knife bootstrap <SERVER IP> -d centos5-amazon-rvm
+*USE:* knife bootstrap SERVER-IP -d centos5-amazon-rvm
 
 This script installs ruby 1.8.7 and chef via RVM.  It follows the standards RVM installation methods outlined http://beginrescueend.com/rvm/install/
 
